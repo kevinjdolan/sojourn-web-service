@@ -1,0 +1,6 @@
+application: sojourn-audio
+# No version required, this does routing independent of version
+
+dispatch:
+  - url: "*/*"
+    module: default

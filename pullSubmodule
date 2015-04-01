@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import os
+import sys
+
+submodule = sys.argv[1]
+
+os.system("""git --git-dir=%s/.git checkout master""" % submodule)
+os.system("""git --git-dir=%s/.git fetch""" % submodule)
+os.system("""git --git-dir=%s/.git merge origin/master""" % submodule)
+
+print "You still need to commit the base repo to point to the updated master."

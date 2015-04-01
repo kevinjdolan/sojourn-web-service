@@ -1,0 +1,12 @@
+total_storage_limit: 25G
+queue:
+- name: default
+  rate: 10/s
+  target: background
+  max_concurrent_requests: 5
+- name: reporting
+  rate: 100/s
+  max_concurrent_requests: 40
+  bucket_size: 99
+  retry_parameters:
+    task_retry_limit: 20

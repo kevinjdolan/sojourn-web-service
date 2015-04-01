@@ -1,0 +1,9 @@
+*.py[cod]
+config.yaml
+datastore
+blobstore
+resource/compiled/
+resource-interim/
+.sass-cache
+node_modules
+.DS_Store

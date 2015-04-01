@@ -1,0 +1,22 @@
+{% extends 'base/baseLayout.jinja2' %}
+{% block head %}
+    <link href="/resource/compiled/admin-monolith.css" media="all" rel="stylesheet" type="text/css" />
+    <script src="/resource/compiled/admin-monolith.js"></script>
+{% endblock %}
+{% block body %} 
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/admin/">sojourn</a>
+                <ul class="nav navbar-nav">
+                    {% include 'railz-admin/railzLinks.jinja2' %}
+                </ul>
+            </div>
+            {% include 'railz-admin/userMetaMenu.jinja2' %}
+        </div>
+    </div>
+    <div class="admin-content">
+        {% block content %}
+        {% endblock %}
+    </div>
+{% endblock %}

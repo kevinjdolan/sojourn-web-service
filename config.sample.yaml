@@ -1,0 +1,13 @@
+SECRET_KEY: "!@#DACD___!@#$!@____!@#$!@#$__#!$AAasdfppAEWAO!PPP@!@#----What the fuck, jamie?----"
+RAILZ:
+  API_ENDPOINT: http://www.metriccollective.com/admin
+  SITE_PREFIX: sojourn
+  BASE_ADMIN_TEMPLATE: 'admin/baseAdminLayout.jinja2'
+CRYPTO:
+  KEY: ABESTAASFASDOFKASOKAOEKAOWFKASOFKASDOFKASPDFOADSKFOPASDKFASDOP
+  IV: SOKDFPOAKSDFOPKAFOPSDKFASDOFKASDOFKASOPFKASDOPFKASDPOFKASDO
+PIPELINE:
+  QUEUE: reporting
+  MODULE: reporting
+  BUCKET: sojourn-reports
+  REPORT_MODULE: sojourn.reporting

@@ -1,0 +1,8 @@
+{
+  "name": "sojourn",
+  "version": "0.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-railz": "~0.1.0"
+  }
+}
