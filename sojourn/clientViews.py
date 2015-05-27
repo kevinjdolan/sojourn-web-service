@@ -381,7 +381,115 @@ SOJOURNS = [
                 'next': None,
             },
         ]
-
+    },
+    {
+        'id': "McCarren",
+        'name': "McCarren Park",
+        'location': [40.721541, -73.954459],
+        'moments': [
+            {
+                'id': "McCarren_Part1_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part1_Intro.mp3",
+                'destination': {
+                    'location': [40.721541, -73.954459],
+                    'radius': 50,
+                    'next': "McCarren_Part1_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part1_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part1_Body.mp3",
+                'next': "McCarren_Part2_Intro",
+            },
+            {
+                'id': "McCarren_Part2_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part2_Intro.mp3",
+                'destination': {
+                    'location': [40.721310, -73.952704],
+                    'radius': 50,
+                    'next': "McCarren_Part2_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part2_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part2_Body.mp3",
+                'next': "McCarren_Part3_Intro",
+            },
+            {
+                'id': "McCarren_Part3_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part3_Intro.mp3",
+                'destination': {
+                    'location': [40.720297, -73.952676],
+                    'radius': 50,
+                    'next': "McCarren_Part3_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part3_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part3_Body.mp3",
+                'next': "McCarren_Part4_Intro",
+            },
+            {
+                'id': "McCarren_Part4_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part4_Intro.mp3",
+                'destination': {
+                    'location': [40.720374, -73.950732],
+                    'radius': 50,
+                    'next': "McCarren_Part4_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part4_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part4_Body.mp3",
+                'next': "McCarren_Part6_Intro",
+            },
+            {
+                'id': "McCarren_Part6_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part6_Intro.mp3",
+                'destination': {
+                    'location': [40.721730, -73.949997],
+                    'radius': 50,
+                    'next': "McCarren_Part6_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part6_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part6_Body.mp3",
+                'next': "McCarren_Part7_Intro",
+            },
+            {
+                'id': "McCarren_Part7_Intro",
+                'type': "TravelMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part7_Intro.mp3",
+                'destination': {
+                    'location': [40.724430, -73.943465],
+                    'radius': 50,
+                    'next': "McCarren_Part7_Body",
+                }
+            },
+            {
+                'id': "McCarren_Part7_Body",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_Part7_Body.mp3",
+                'next': "McCarren_END",
+            },
+            {
+                'id': "McCarren_END",
+                'type': "ListenMoment",
+                'audio': "http://storage.googleapis.com/sojourn-assets/McCarren_END.mp3",
+                'next': None,
+            },
+        ],
     }
 ]
 
